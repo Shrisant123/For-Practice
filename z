@@ -1,0 +1,442 @@
+[1mdiff --git a/codewithshreesant/R.jfif b/codewithshreesant/R.jfif[m
+[1mdeleted file mode 100644[m
+[1mindex a9fcb26..0000000[m
+Binary files a/codewithshreesant/R.jfif and /dev/null differ
+[1mdiff --git a/codewithshreesant/README.md b/codewithshreesant/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex 666b298..0000000[m
+[1m--- a/codewithshreesant/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,2 +0,0 @@[m
+[31m-# codewithshreesant[m
+[31m-my new website[m
+[1mdiff --git a/codewithshreesant/blogs.html b/codewithshreesant/blogs.html[m
+[1mdeleted file mode 100644[m
+[1mindex ad68516..0000000[m
+[1m--- a/codewithshreesant/blogs.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,115 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html>[m
+[31m-<head>[m
+[31m-	<meta charset="utf-8">[m
+[31m-	<meta name="viewport" content="width=device-width, initial-scale=1">[m
+[31m-	<title>creating github website</title>[m
+[31m-	<link rel="stylesheet" type="text/css" href="style.css">[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-[m
+[31m-	<div class="main">[m
+[31m-		<nav class="navbar">[m
+[31m-			<div class="logo">[m
+[31m-				<h1>Shreesant Adhikari</h1>[m
+[31m-			</div>[m
+[31m-			<div class="menu">[m
+[31m-				<ul>[m
+[31m-					<li><a href="index.html">Home</a></li>[m
+[31m-					<li><a href="blogs.html">Blogs</a></li>[m
+[31m-					<li><a href="intro.html">Intro</a></li>[m
+[31m-					<li><a href="contact.html">Contact</a></li>[m
+[31m-					<li>Search:<input type="text" style="padding: 5px; border-radius: 12px;"></li>[m
+[31m-				</ul>[m
+[31m-			</div>[m
+[31m-		</nav>[m
+[31m-		<h1 style="text-align: center; color:green; font-size: 38px;">All blogs appear here</h1>[m
+[31m-		<div class="blogs">[m
+[31m-			<div class="html">[m
+[31m-				<h1>HTML Introduction</h1>[m
+[31m-				<p>HTML stands for hyper text transfer protocal.[m
+[31m-				HTML stands for Hyper Text Markup Language[m
+[31m-				HTML is the standard markup language for creating Web pages[m
+[31m-				HTML describes the structure of a Web page[m
+[31m-				HTML consists of a series of elements[m
+[31m-				HTML elements tell the browser how to display the content[m
+[31m-				HTML elements label pieces of content such as "this is a heading", "this is a 				paragraph", "this is a link", etc. – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.<br><br>[m
+[31m-[m
+[31m-<b>html Tag</b>– This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the<details style="font-size:22px;"><summary>see more</summary> second outer container element that contains all other elements within it.<br><br>[m
+[31m-[m
+[31m-<b>head Tag </b>– This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.<br><br>[m
+[31m-[m
+[31m- <b>body Tag</b>– The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.</p>[m
+[31m-<br><br>[m
+[31m- <b>Example 1: This is the basic example of HTML that display the heading and paragraph content.</b>[m
+[31m-[m
+[31m-<xmp>[m
+[31m-<!DOCTYPE html>[m
+[31m-<html>[m
+[31m- [m
+[31m-<!-- Head Section content -->[m
+[31m-<head>[m
+[31m- [m
+[31m-    <!-- Page title -->[m
+[31m-    <title>Basic Web Page</title>[m
+[31m-</head>[m
+[31m- [m
+[31m-<!-- Body Section content -->[m
+[31m-<body>[m
+[31m- [m
+[31m-    <!-- Used to display heading content -->[m
+[31m-    <h1>Welcome to GeeksforGeeks</h1>[m
+[31m- [m
+[31m-    <!-- Used to display paragrapg content -->[m
+[31m-    <p>A computer science portal for geeks</p>[m
+[31m-</body>[m
+[31m- [m
+[31m-</html></xmp></details>[m
+[31m-			</div>[m
+[31m-[m
+[31m-			<div class="java">[m
+[31m-				<h1>Java introduction</h1>[m
+[31m-				<p>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy<details style="font-size:22px;"><summary>see more</summary>.<br><br>[m
+[31m-					<b>Java syntax</b> :-<br><br>[m
+[31m-					public class MYclass{<br><br>[m
+[31m-						public static void main(String[] args){<br>[m
+[31m-							//code<br>[m
+[31m-						}<br>[m
+[31m-					}<br><br>[m
+[31m-[m
+[31m-					Simple Hello World Program :<br>[m
+[31m-[m
+[31m-[m
+[31m-// A Java program to print "Hello World" [m
+[31m-public class GFG { [m
+[31m-    public static void main(String args[]) <br>[m
+[31m-    { <br>[m
+[31m-        System.out.println("Hello World"); <br>[m
+[31m-    } <br>[m
+[31m-}<br>[m
+[31m-[m
+[31m-<b>Features of Java</b><br><br>[m
+[31m-[m
+[31m-Java is one of the most popular and widely used programming languages.[m
+[31m-[m
+[31m-Java has been one of the most popular programming languages for many years.[m
+[31m-Java is Object Oriented. However, it is not considered as pure object-oriented as it provides support for primitive data types (like int, char, etc)[m
+[31m-The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.[m
+[31m-Java syntax is similar to C/C++. But Java does not provide low-level programming functionalities like pointers. Also, Java codes are always written in the form of classes and objects.[m
+[31m-</p></details>[m
+[31m-			</div>[m
+[31m-[m
+[31m-			<div class="python">[m
+[31m-				<h1>Python Introduction</h1>[m
+[31m-				<p>Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.Python is a programming language that lets you work quickly and integrate systems more efficiently.There are many interpreters available freely to run Python scripts like IDLE (Integrated Development Environment) that comes bundled with the Python software downloaded from http://python.org/.[m
+[31m-				Python comes preinstalled with popular Linux distros such as Ubuntu and Fedora. To check which version of Python you’re running, type “python” in the terminal emulator. The interpreter should start and print the version number.<br><br>[m
+[31m-			# Script Begins<br><br>[m
+[31m-[m
+[31m-			print("GeeksQuiz")<br><br>[m
+[31m-[m
+[31m-			# Scripts Ends</p>[m
+[31m-			</div>[m
+[31m-		</div>[m
+[31m-	</div>[m
+[31m-</body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/codewithshreesant/contact.html b/codewithshreesant/contact.html[m
+[1mdeleted file mode 100644[m
+[1mindex e1d3e16..0000000[m
+[1m--- a/codewithshreesant/contact.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,43 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html>[m
+[31m-<head>[m
+[31m-	<meta charset="utf-8">[m
+[31m-	<meta name="viewport" content="width=device-width, initial-scale=1">[m
+[31m-	<title>creating github website</title>[m
+[31m-	<link rel="stylesheet" type="text/css" href="style.css">[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-[m
+[31m-	<div class="main">[m
+[31m-		<nav class="navbar">[m
+[31m-			<div class="logo">[m
+[31m-				<h1>Shreesant Adhikari</h1>[m
+[31m-			</div>[m
+[31m-			<div class="menu">[m
+[31m-				<ul>[m
+[31m-					<li><a href="index.html">Home</a></li>[m
+[31m-					<li><a href="blogs.html">Blogs</a></li>[m
+[31m-					<li><a href="intro.html">Intro</a></li>[m
+[31m-					<li><a href="contact.html">Contact</a></li>[m
+[31m-					<li>Search:<input type="text" style="padding: 5px; border-radius: 12px;"></li>[m
+[31m-				</ul>[m
+[31m-			</div>[m
+[31m-		</nav>[m
+[31m-[m
+[31m-			<form>[m
+[31m-				<h1 style="text-align: center; color:red; text-decoration: underline;">Contact form</h1>[m
+[31m-				<label>First name:-</label>[m
+[31m-				<input type="text" name="firstname"><br>[m
+[31m-				<label>Last name:-</label>[m
+[31m-				<input type="text" name="lastname"><br>[m
+[31m-				<label>Phone no:-</label>[m
+[31m-				<input type="text" name="phoneno"><br>[m
+[31m-				<label>Address</label>[m
+[31m-				<input type="text" name="address"><br>[m
+[31m-				<label>Email:-</label>[m
+[31m-				<input type="text" name="email"><br>[m
+[31m-				<a href="index.html"><input type="button" value="Send"></a>[m
+[31m-			</form>[m
+[31m-	</div>[m
+[31m-</body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/codewithshreesant/index.html b/codewithshreesant/index.html[m
+[1mdeleted file mode 100644[m
+[1mindex 3453743..0000000[m
+[1m--- a/codewithshreesant/index.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,42 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html>[m
+[31m-<head>[m
+[31m-	<meta charset="utf-8">[m
+[31m-	<meta name="viewport" content="width=device-width, initial-scale=1">[m
+[31m-	<title>creating github website</title>[m
+[31m-	<link rel="stylesheet" type="text/css" href="style.css">[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-[m
+[31m-	<div class="main">[m
+[31m-		<nav class="navbar">[m
+[31m-			<div class="logo">[m
+[31m-				<h1>CodewithShreesant</h1>[m
+[31m-			</div>[m
+[31m-			<div class="menu">[m
+[31m-				<ul>[m
+[31m-					<li><a href="index.html">Home</a></li>[m
+[31m-					<li><a href="blogs.html">Blogs</a></li>[m
+[31m-					<li><a href="intro.html">Intro</a></li>[m
+[31m-					<li><a href="contact.html">Contact</a></li>[m
+[31m-					<li>Search:<input type="text" style="padding: 5px; border-radius: 12px;"></li>[m
+[31m-				</ul>[m
+[31m-			</div>[m
+[31m-		</nav>[m
+[31m-[m
+[31m-		<div class="body">[m
+[31m-			<h1 style="font-size: 38px; margin-left: 10px; color: burlywood;">Here you can learn <span id="dekhau" style="color: blue;"></span></h1>[m
+[31m-			<p style="font-size: 25px;">I am a technical student.Coding is my passion.<br>I like to learn new programming skills in ever-<br>y single day.This is my personal site.Here I w-<br>ill upload my personal experiences in coding<br> and share my coding knowledge with you.</p>[m
+[31m-			<button style="background: blue; color: white; padding: 8px; border-radius: 8px;"><h3>explore</h3></button>[m
+[31m-		</div>[m
+[31m-[m
+[31m-		<div class="img" style="position: absolute; right: 182px; top: 120px;">[m
+[31m-			<img src="R.jfif" height="422px" width="422px" style="border-top-left-radius: 18px;">[m
+[31m-		</div>[m
+[31m-[m
+[31m-	</div>[m
+[31m-[m
+[31m-</body>[m
+[31m-<script src="typed.js"></script>[m
+[31m-<script src="index.js"></script>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/codewithshreesant/index.js b/codewithshreesant/index.js[m
+[1mdeleted file mode 100644[m
+[1mindex 8d04eda..0000000[m
+[1m--- a/codewithshreesant/index.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-let typd=new Typed("#dekhau",{[m
+[31m-	strings: ["C","C#","Java","Python","HTML","CSS","Javascript"],[m
+[31m-	typeSpeed: 100,[m
+[31m-	backSpeed:100,[m
+[31m-	loop:true,[m
+[31m-	showCursor:false,[m
+[31m-	shuffle:true[m
+[31m-})[m
+\ No newline at end of file[m
+[1mdiff --git a/codewithshreesant/style.css b/codewithshreesant/style.css[m
+[1mdeleted file mode 100644[m
+[1mindex 8dbad14..0000000[m
+[1m--- a/codewithshreesant/style.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,170 +0,0 @@[m
+[31m-*{[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.navbar{[m
+[31m-	height: 15vh;[m
+[31m-	width: 100vw;[m
+[31m-	display: flex;[m
+[31m-}[m
+[31m-[m
+[31m-.logo{[m
+[31m-	width: 25vw;[m
+[31m-	text-align: center;[m
+[31m-	padding-top: 12px;[m
+[31m-	font-size: 20px;[m
+[31m-	color: purple;[m
+[31m-}[m
+[31m-[m
+[31m-.menu{[m
+[31m-	width: 75vw;[m
+[31m-}[m
+[31m-[m
+[31m-.menu ul{[m
+[31m-	display: flex;[m
+[31m-	position: absolute;[m
+[31m-	right: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.menu ul li{[m
+[31m-	padding: 12px 40px 0px 40px;[m
+[31m-	list-style: none;[m
+[31m-	font-size: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-#inp{[m
+[31m-	padding: 5px; [m
+[31m-	border-radius: 12px;[m
+[31m-}[m
+[31m-[m
+[31m-li a{[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-[m
+[31m-.body{[m
+[31m-[m
+[31m-	position: absolute;[m
+[31m-	left: 120px;[m
+[31m-	top: 220px;[m
+[31m-}[m
+[31m-[m
+[31m-form input{[m
+[31m-	padding: 12px 40px 12px 30px;[m
+[31m-	margin: 12px;[m
+[31m-	border-radius: 12px;[m
+[31m-}[m
+[31m-[m
+[31m-label{[m
+[31m-	font-size: 18px;[m
+[31m-}[m
+[31m-[m
+[31m-form{[m
+[31m-	height: 70vh;[m
+[31m-	width: 50vw;[m
+[31m-	position: absolute;[m
+[31m-	top: 170px;[m
+[31m-	left: 400px;[m
+[31m-	border: 2px solid black;[m
+[31m-	border-radius: 12px;[m
+[31m-	padding-left: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.blogs{[m
+[31m-	display: grid;[m
+[31m-	grid-template-rows: repeat(2, 1fr);[m
+[31m-	grid-template-columns: repeat(3, 1fr);[m
+[31m-}[m
+[31m-[m
+[31m-.java{[m
+[31m-	border: 2px solid black;[m
+[31m-	grid-row-start: 1;[m
+[31m-	grid-row-end: 3;[m
+[31m-}[m
+[31m-[m
+[31m-.python{[m
+[31m-	grid-row-start: 1;[m
+[31m-	grid-row-end: 2;[m
+[31m-	border: 2px solid black;[m
+[31m-	height: 110vh;[m
+[31m-}[m
+[31m-[m
+[31m-.html{[m
+[31m-	grid-row-start: 1;[m
+[31m-	grid-row-end: 3;[m
+[31m-	border: 2px solid black;[m
+[31m-}[m
+[31m-[m
+[31m-.python h1{[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-[m
+[31m-.html h1{[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-[m
+[31m-.java h1{[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-#e1{[m
+[31m-	height: ;[m
+[31m-	border: 2px solid black;[m
+[31m-}[m
+[31m-p{[m
+[31m-	font-size: 22px;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-@media(min-width:500px) and (max-width:1038px){[m
+[31m-	.menu ul{[m
+[31m-		display: flex;[m
+[31m-		flex-direction: column;[m
+[31m-	}[m
+[31m-[m
+[31m-	.img img{[m
+[31m-		height: 122px;[m
+[31m-		width: 122px;[m
+[31m-	}[m
+[31m-[m
+[31m-	.body{[m
+[31m-		height: 300px;[m
+[31m-		position: absolute;[m
+[31m-		left: 23px;[m
+[31m-		width: 200px;[m
+[31m-	}[m
+[31m-[m
+[31m-	.menu ul li input{[m
+[31m-		padding: 10px;[m
+[31m-	}[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-@media(min-width:130px) and (max-width:500px){[m
+[31m-	.body{[m
+[31m-		width: 100px;[m
+[31m-	}[m
+[31m-[m
+[31m-	.menu ul{[m
+[31m-		flex-direction: column;[m
+[31m-[m
+[31m-	}[m
+[31m-[m
+[31m-	.menu ul li{[m
+[31m-		font-size: 8px;[m
+[31m-	}[m
+[31m-	.logo h1{[m
+[31m-		font-size: 12px;[m
+[31m-	}[m
+[31m-[m
+[31m-	.img img{[m
+[31m-		height: 50px;[m
+[31m-		width: 50px;[m
+[31m-	}[m
+[31m-[m
+[31m-	#inp{[m
+[31m-	padding: 2px; [m
+[31m-	border-radius: 8px;[m
+[31m-}[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/codewithshreesant/typed.js b/codewithshreesant/typed.js[m
+[1mdeleted file mode 100644[m
+[1mindex dc5ab53..0000000[m
+[1m--- a/codewithshreesant/typed.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,1051 +0,0 @@[m
+[31m-/*![m
+[31m- * [m
+[31m- *   typed.js - A JavaScript Typing Animation Library[m
+[31m- *   Author: Matt Boldt <me@mattboldt.com>[m
+[31m- *   Version: v2.0.11[m
+[31m- *   Url: https://github.com/mattboldt/typed.js[m
+[31m- *   License(s): MIT[m
+[31m- * [m
+[31m- */[m
+[31m-(function webpackUniversalModuleDefinition(root, factory) {[m
+[31m-	if(typeof exports === 'object' && typeof module === 'object')[m
+[31m-		module.exports = factory();
